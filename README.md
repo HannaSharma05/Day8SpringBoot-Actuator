@@ -24,13 +24,17 @@ At its core, Actuator answers questions like:
 ---------------------
 📸 Sample Response
 
-GET /hello
+GET /hello:
 
-Hello Actuator is running
+Hello! Actuator is running!
 
-GET /actuator/health
+
+GET /actuator/health:
+
 
 json{
   "status": "UP"
 }
+
+
 All of this is exposed through simple REST endpoints under the /actuator base path, which makes it incredibly useful for debugging, monitoring, and integrating with tools like Prometheus, Grafana, and Kubernetes health checks.
