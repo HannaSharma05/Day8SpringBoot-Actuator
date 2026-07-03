@@ -1,0 +1,13 @@
+Aspect-Oriented Programming (AOP) in Spring Security allows you to modularize cross-cutting concerns like authentication, authorization, and auditing. Instead of scattering security checks across multiple methods, you define them once in an aspect and apply them consistently across your application.
+
+🔹 Why Use AOP in Security?
+Centralized Security → Define security rules in one place, apply them across services.
+
+Cross-Cutting Concern Handling → Security is a classic cross-cutting concern (like logging, transactions).
+
+Cleaner Code → Avoid repetitive security checks in every method.
+
+Dynamic Control → Change or extend security logic without modifying business logic.
+
+🔹 Key AOP Concepts in Security
+Aspect → A module encapsulating security logic.
