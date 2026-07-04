@@ -8,7 +8,6 @@ Think of it like a built-in dashboard for your application. Instead of guessing 
 
 At its core, Actuator answers questions like:
 
-
 💓 Is my application up and healthy?
 
 ⚙️ What configuration and environment properties is it using?
@@ -33,7 +32,9 @@ GET /actuator/health:
 
 
 json{
+
   "status": "UP"
+  
 }
 
 
