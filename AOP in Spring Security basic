@@ -8,6 +8,3 @@ Cross-Cutting Concern Handling → Security is a classic cross-cutting concern (
 Cleaner Code → Avoid repetitive security checks in every method.
 
 Dynamic Control → Change or extend security logic without modifying business logic.
-
-🔹 Key AOP Concepts in Security
-Aspect → A module encapsulating security logic.
